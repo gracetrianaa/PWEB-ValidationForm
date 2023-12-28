@@ -57,6 +57,6 @@ databaseForm.addEventListener("submit", (event) => {
     !asalKotaInput.value ||
     !alamatInput.value
   ) {
-    alert("Mohon isi semua kolom!");
+    alert("Please fill out all fields!");
   }
 });
